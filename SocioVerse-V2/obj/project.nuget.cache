@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tRVrctMCk2A=",
+  "dgSpecHash": "HPfBHb0TquM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse-V2\\SocioVerse-V2.csproj",
+  "projectFilePath": "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse-V2\\SocioVerse.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chetan Soni\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Chetan Soni\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

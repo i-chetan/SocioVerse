@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -11,11 +11,6 @@
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.36" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.13" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SocioVerseRepositories\SocioVerseRepositories.csproj" />
-    <ProjectReference Include="..\SocioVerseModels\SocioVerseModels.csproj" />
   </ItemGroup>
 
 </Project>
