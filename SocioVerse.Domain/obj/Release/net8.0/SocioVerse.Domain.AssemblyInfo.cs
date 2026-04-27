@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocioVerse.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee73a24d8d37d1f5ae1e7e8046d377563e5a56b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9766a9983cdc57a1d170e9635308a71c3c19350")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocioVerse.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocioVerse.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
