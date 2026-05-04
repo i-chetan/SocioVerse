@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "SocioVerse.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SocioVerse.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocioVerse.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SocioVerse.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SocioVerse.Domain/SocioVerse.Domain.csproj",
+      "msbuildProject": "../SocioVerse.Domain/SocioVerse.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "SocioVerse.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Chetan Soni\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Domain\\SocioVerse.Domain.csproj": {
+              "projectPath": "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Domain\\SocioVerse.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocioVerse.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9766a9983cdc57a1d170e9635308a71c3c19350")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d76d3ddc9c30bb35157c237778f990e5c8893f53")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocioVerse.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocioVerse.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

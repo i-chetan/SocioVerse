@@ -1492,6 +1492,19 @@
           }
         }
       },
+      "SocioVerse.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SocioVerse.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SocioVerse.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocioVerse.Application.dll": {}
+        }
+      },
       "SocioVerse.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4004,6 +4017,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "SocioVerse.Application/1.0.0": {
+      "type": "project",
+      "path": "../SocioVerse.Application/SocioVerse.Application.csproj",
+      "msbuildProject": "../SocioVerse.Application/SocioVerse.Application.csproj"
+    },
     "SocioVerse.Domain/1.0.0": {
       "type": "project",
       "path": "../SocioVerse.Domain/SocioVerse.Domain.csproj",
@@ -4015,6 +4033,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.26",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.26",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.26",
+      "SocioVerse.Application >= 1.0.0",
       "SocioVerse.Domain >= 1.0.0"
     ]
   },
@@ -4044,6 +4063,9 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Application\\SocioVerse.Application.csproj": {
+              "projectPath": "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Application\\SocioVerse.Application.csproj"
+            },
             "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Domain\\SocioVerse.Domain.csproj": {
               "projectPath": "C:\\Users\\Chetan Soni\\Desktop\\New folder\\Socioverse\\SocioVerse.Domain\\SocioVerse.Domain.csproj"
             }

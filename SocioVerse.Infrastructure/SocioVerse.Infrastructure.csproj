@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SocioVerse.Application\SocioVerse.Application.csproj" />
     <ProjectReference Include="..\SocioVerse.Domain\SocioVerse.Domain.csproj" />
   </ItemGroup>
 

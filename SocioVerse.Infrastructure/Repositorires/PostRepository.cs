@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocioVerse.Application.Services
+namespace SocioVerse.Infrastructure.Repositorires
 {
-    internal class UserService
+    internal class PostRepository
     {
     }
 }
