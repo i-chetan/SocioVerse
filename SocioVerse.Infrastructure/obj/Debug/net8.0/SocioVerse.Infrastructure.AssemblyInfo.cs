@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocioVerse.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d76d3ddc9c30bb35157c237778f990e5c8893f53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22ad2221e8361ee3155f076e8e32cae5bb3f9046")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocioVerse.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocioVerse.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
