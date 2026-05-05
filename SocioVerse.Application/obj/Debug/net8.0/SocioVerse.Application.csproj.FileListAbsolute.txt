@@ -1,0 +1,16 @@
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\bin\Debug\net8.0\SocioVerse.Application.deps.json
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\bin\Debug\net8.0\SocioVerse.Application.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\bin\Debug\net8.0\SocioVerse.Application.pdb
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\bin\Debug\net8.0\SocioVerse.Domain.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\bin\Debug\net8.0\SocioVerse.Domain.pdb
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.csproj.AssemblyReference.cache
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.AssemblyInfoInputs.cache
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.AssemblyInfo.cs
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.csproj.CoreCompileInputs.cache
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.sourcelink.json
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVer.5F01ED35.Up2Date
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\refint\SocioVerse.Application.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\SocioVerse.Application.pdb
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Application\obj\Debug\net8.0\ref\SocioVerse.Application.dll

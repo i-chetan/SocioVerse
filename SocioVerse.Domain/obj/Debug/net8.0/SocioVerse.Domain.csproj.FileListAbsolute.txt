@@ -1,0 +1,12 @@
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\bin\Debug\net8.0\SocioVerse.Domain.deps.json
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\bin\Debug\net8.0\SocioVerse.Domain.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\bin\Debug\net8.0\SocioVerse.Domain.pdb
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.AssemblyInfoInputs.cache
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.AssemblyInfo.cs
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.sourcelink.json
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\refint\SocioVerse.Domain.dll
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\SocioVerse.Domain.pdb
+C:\Users\Chetan Soni\Desktop\New folder\Socioverse\SocioVerse.Domain\obj\Debug\net8.0\ref\SocioVerse.Domain.dll

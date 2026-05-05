@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SocioVerse.Application.Interfaces;
 using SocioVerse.Infrastructure.Persistence;
+using SocioVerse.Infrastructure.Repositorires;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,9 @@ namespace SocioVerse.Infrastructure.DependencyInjection
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration config)
         {
             services.AddDbContext<SocialMediaDbContext>(options => options.UseSqlServer(config["DefaultConnection"]));
+
+            services.AddScoped<IUserService, UserRepository>();
+            services.AddScoped<IPostService,  PostRepository>();
 
             return services;
         }

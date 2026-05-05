@@ -1,6 +1,10 @@
-﻿namespace SocioVerse_V2.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace SocioVerse.Presentation.Controllers
 {
-    public class PostController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class PostController : ControllerBase
     {
     }
 }

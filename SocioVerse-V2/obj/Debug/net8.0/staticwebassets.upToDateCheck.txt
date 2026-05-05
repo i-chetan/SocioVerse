@@ -1,0 +1,7 @@
+wwwroot\3rdpartylicenses.txt
+wwwroot\favicon.ico
+wwwroot\index.html
+wwwroot\main.5901d31206f18efa.js
+wwwroot\polyfills.697b8822545d671b.js
+wwwroot\runtime.00285116a9b7ab64.js
+wwwroot\styles.ef46db3751d8e999.css

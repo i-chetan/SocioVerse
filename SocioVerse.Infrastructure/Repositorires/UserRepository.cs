@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SocioVerse.Application.DTOs;
 using SocioVerse.Application.Interfaces;
+using SocioVerse.Application.Persistence;
 using SocioVerse.Infrastructure.Persistence;
 
 namespace SocioVerse.Infrastructure.Repositorires
