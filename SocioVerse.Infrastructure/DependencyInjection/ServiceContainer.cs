@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SocioVerse.Application.Interfaces;
 using SocioVerse.Infrastructure.Persistence;
 using SocioVerse.Infrastructure.Repositorires;
+using SocioVerse.Infrastructure.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,10 @@ namespace SocioVerse.Infrastructure.DependencyInjection
 
             services.AddScoped<IUserService, UserRepository>();
             services.AddScoped<IPostService,  PostRepository>();
+
+            services.Configure<JWTOptions>(config.GetSection(JWTOptions.Section));
+
+            services.AddScoped<IJWTService, JWTService>();
 
             return services;
         }

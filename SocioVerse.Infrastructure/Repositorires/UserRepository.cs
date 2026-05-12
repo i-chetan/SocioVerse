@@ -50,5 +50,14 @@ namespace SocioVerse.Infrastructure.Repositorires
 
             await _context.SaveChangesAsync();
         }
+
+        public async Task<UserDTO> GetUserByUsername(string username)
+        {
+            var _user = await _context.Users.Where(x => x.UserName == username).FirstOrDefaultAsync();
+
+            var (user, _) = UserConversion.FromEntity(_user!, null);
+
+            return user;
+        }
     }
 }

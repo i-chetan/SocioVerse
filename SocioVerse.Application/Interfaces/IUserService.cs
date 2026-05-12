@@ -13,5 +13,6 @@ namespace SocioVerse.Application.Interfaces
         Task UpdateAsync(UserDTO user);
         Task<IEnumerable<UserDTO>> GetUsers();
         Task<UserDTO> GetUserById(int id);
+        Task<UserDTO> GetUserByUserName(string userName);
     }
 }
