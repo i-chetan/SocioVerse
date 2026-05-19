@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using SocioVerse.Application.DTOs;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -44,11 +45,41 @@ namespace SocioVerse.Infrastructure.Services
             var expiry = DateTime.UtcNow.AddDays(_options.RefreshTokenExpiryInDays);
             return (token, expiry);
         }
+
+        public TokenClaims? ParseAccessToken(string token, bool allowExpired = true)
+        {
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.SecretKey));
+            var parameters = new TokenValidationParameters {
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = key,
+                ValidateIssuer = true,
+                ValidIssuer = _options.Issuer,
+                ValidateAudience = true,
+                ValidAudience = _options.Audience,
+                ValidateLifetime = !allowExpired,
+                ClockSkew = TimeSpan.Zero,
+            };
+
+            try
+            {
+                var principal = new JwtSecurityTokenHandler().ValidateToken(token, parameters, out _);
+
+                var userId = Convert.ToInt32(principal.FindFirstValue(JwtRegisteredClaimNames.Sub)!);
+                var email = principal.FindFirstValue(JwtRegisteredClaimNames.Email)!;
+
+                return new TokenClaims(userId, email);
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 
     public interface IJWTService {
         (string token, DateTime expiry) GenerateAccessToken(int userId, string email);
         (string token, DateTime expiry) GenerateRefreshToken(); 
+        TokenClaims? ParseAccessToken(string token, bool allowExpired);
     }
 
     public class PasswordHasher : SocioVerse.Application.Interfaces.IPasswordHasher

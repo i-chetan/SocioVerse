@@ -9,10 +9,14 @@ namespace SocioVerse.Application.Interfaces
 {
     public interface IUserService
     {
-        Task CreateAsync(UserDTO user);
+        Task<int> CreateAsync(UserDTO user);
         Task UpdateAsync(UserDTO user);
         Task<IEnumerable<UserDTO>> GetUsers();
         Task<UserDTO> GetUserById(int id);
         Task<UserDTO> GetUserByUserName(string userName);
+        Task<bool> UserExists(string userName);
+        Task<string> FindActiveRefreshToken(int userId, string refreshToken);
+        Task SaveActiveRefreshToken(int userId, string refreshToken, DateTime expiry);
+        Task RevokeActiveRefreshToken(int userId, string refreshToken);
     }
 }
